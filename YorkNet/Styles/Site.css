@@ -1,0 +1,356 @@
+﻿body
+{
+	FONT-SIZE: 0.8em;
+	/*font-size: 10px;*/
+	color: black;
+	font-style: normal;
+	font-family: Verdana;
+	background-color: transparent;
+                overflow: auto;      /* extend full width of tr td */
+	text-decoration: none;
+}
+
+.myTables
+{
+   font-size: 0.8em;
+   font-family: Verdana;
+}
+
+.SearchTable
+{
+    width : 750px;
+	padding: 1px;
+	border:1px solid #9AB0C0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;	
+}
+
+.WizardControl
+{
+    width : 750px;
+	padding: 1px;
+	border:1px solid #9AB0C0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #000000;	
+}
+
+.WizardLabel
+{
+    width : 750px;
+	padding: 1px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #000000;	
+}
+
+.ProjectTable
+{
+	padding: 1px;
+	border:1px solid #9AB0C0;
+	font-family: Verdana;
+	font-size: 7pt;
+	color: #000000;	
+}
+
+/*Modal Popup*/
+.modalBackground {
+	background-color:White;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup 
+{
+	background-color:White;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:250px;
+}	
+
+
+
+/*AutoComplete flyout */
+
+.autocomplete_completionListElement 
+{  
+	visibility : hidden;
+	margin : 0px!important;
+	background-color : inherit;
+	color : windowtext;
+	border : buttonshadow;
+	border-width : 1px;
+	border-style : solid;
+	cursor : 'default';
+	overflow : auto;
+	height : 140px;
+    text-align : left; 
+    list-style-type : none;
+}
+
+/* AutoComplete highlighted item */
+
+.autocomplete_highlightedListItem
+{
+	background-color:Highlight;
+	color: White;
+	padding: 1px;
+}
+
+/* AutoComplete item */
+
+.autocomplete_listItem 
+{
+	background-color : window;
+	color : windowtext;
+	padding : 1px;
+}
+
+.myLogin
+{
+   font-size: 0.8em;
+   font-family: Verdana;
+   border-right: black 1px solid;
+   border-top: black 1px solid;
+   border-bottom: black 1px solid;
+   border-left: black 1px solid;
+}
+
+.myButtons
+{
+	padding: 1px;
+	border:1px solid #9AB0C0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;	
+}
+
+.WizardButtons
+{
+	padding: 1px;
+	border:1px solid #9AB0C0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #000000;	
+}
+
+.myTexts
+{
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	margin-top: 1px;
+	font-size: 11px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	border-left: black 1px solid;
+	color: black;
+	border-bottom: black 1px solid;
+	font-style: normal;
+	font-family: Verdana;
+	background-color: transparent;
+	font-variant: normal;
+	text-decoration: none;
+}
+
+.myLabels
+{
+	font-size: 11px;
+	color: black;
+	font-style: normal;
+	font-family: Verdana;
+	background-color: transparent;
+	font-variant: normal;
+	text-decoration: bold;
+}
+
+.myErrors
+{
+	font-size: 11px;
+	color: Red;
+	font-style: normal;
+	font-family: Verdana;
+	background-color: transparent;
+	font-variant: normal;
+	text-decoration: bold;
+}
+
+.modalBackground
+{
+	background-color: Gray;
+	filter: alpha(opacity=50);
+	opacity: 0.50;
+}
+
+
+
+.updateProgress
+{
+	border-width: 1px;
+	border-style: solid;
+	background-color: #FFFFFF;
+	position: absolute;
+	width: 230px;
+	height: 65px;
+}
+
+/*Modal Popup*/
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup {
+	background-color:#ffffdd;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:350px;
+}
+
+.modalPopup p {
+    padding: 5px;
+    font-size: 30px
+}
+
+/* cupid blue (inspired by okcupid.com)
+/* Copyright (c) 2011 Chad Mazzola https://github.com/ubuwaits/css3-buttons/blob/gh-pages/LICENSE*/
+
+.cupid-blue {
+/*  background: #d7e5f5 !important;*/
+	background: -moz-linear-gradient(0% 100% 90deg,#cbe0f5, #d7e5f5);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d7e5f5), to(#cbe0f5));
+	border-top: 1px solid #abbbcc !important;
+	border-left: 1px solid #a7b6c7 !important;
+	border-bottom: 1px solid #a1afbf !important;
+	border-right: 1px solid #a7b6c7 !important;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: inset 0 1px 0 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 0 #fff;
+	box-shadow: inset 0 1px 0 0 #fff;
+	color: #1a3e66 !important;
+	font-weight: normal;
+	line-height: 1;
+	text-align: center;
+	text-shadow: 0 1px 1px #fff;
+}
+
+.cupid-blue:hover {
+	background: #ccd9e8;
+	background: -moz-linear-gradient(0% 100% 90deg,#c1d4e8, #ccd9e8);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccd9e8), to(#c1d4e8));
+	border-top: 1px solid #a1afbf;
+	border-left: 1px solid #9caaba;
+	border-bottom: 1px solid #96a3b3;
+	border-right: 1px solid #9caaba;
+	-moz-box-shadow: inset 0 1px 0 0 #f2f2f2;
+	-webkit-box-shadow: inset 0 1px 0 0 #f2f2f2;
+	box-shadow: inset 0 1px 0 0 #f2f2f2;
+	color: #163659;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.cupid-blue:active {
+	border: 1px solid #8c98a7;
+	-moz-box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eee;
+	-webkit-box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eee;
+	box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eee;
+}
+
+.SelectedCupidBlue
+{
+	background: #ccd9e8;
+	background: -moz-linear-gradient(0% 100% 90deg,#c1d4e8, #ccd9e8);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccd9e8), to(#c1d4e8));
+	border-top: 1px solid #a1afbf;
+	border-left: 1px solid #9caaba;
+	border-bottom: 1px solid #96a3b3;
+	border-right: 1px solid #9caaba;
+	-moz-box-shadow: inset 0 1px 0 0 #f2f2f2;
+	-webkit-box-shadow: inset 0 1px 0 0 #f2f2f2;
+	box-shadow: inset 0 1px 0 0 #f2f2f2;
+	color: #163659;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 5px 5px 5px 5px;
+}
+
+/* Buttons */
+
+button:hover {
+	cursor: pointer;
+}
+
+.punch {
+	padding: 5px 10px 5px 10px;
+	background: #a3c9a3;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: inset 0 1px 10px 1px #e7f7e4, 0px 1px 0 #a3c9a3, 0 6px 0px #475b48, 0 8px 3px 1px #111;
+	-webkit-box-shadow: inset 0 1px 10px 1px #e7f7e4, 0px 1px 0 #a3c9a3, 0 6px 0px #475b48, 0 3px 4px 1px #111;
+	box-shadow: inset 0 1px 10px 1px #e7f7e4, 0px 1px 0 #a3c9a3, 0 6px 0px #475b48, 0 3px 4px 1px #111;
+	color: #fff;
+	font-size: 14px;
+	line-height: 1;
+	margin-bottom: 10px;
+	text-align: center;
+	text-shadow: 0px -1px 1px gray;
+	width: 190px;
+	-webkit-background-clip: padding-box;
+	margin: 0px 5px 0px 5px;
+}
+
+.punch:hover {
+	-moz-box-shadow: inset 0 0px 20px 1px #dcffd3, 0px 1px 0 #dcffd3, 0 6px 0px #475b48, 0 3px 4px 1px #111;
+	-webkit-box-shadow: inset 0 0px 20px 1px #dcffd3, 0px 1px 0 #dcffd3, 0 6px 0px #475b48, 0 3px 4px 1px #111;
+	box-shadow: inset 0 0px 20px 1px #dcffd3, 0px 1px 0 #dcffd3, 0 6px 0px #475b48, 0 3px 4px 1px #111;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.punch:active {
+	-moz-box-shadow: inset 0 1px 10px 1px #475b48, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111;
+	-webkit-box-shadow: inset 0 1px 10px 1px #475b48, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111;
+	box-shadow: inset 0 1px 10px 1px #475b48, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111;
+}
+
+.button_m {
+	background-color: #6fa3f6;
+	color: navy;
+	padding: 6px;
+	border: 1px solid #395680;
+}
+
+.button_m:hover {
+	text-decoration: none;
+	background-color: #648bc0;
+}
+
+.big-button {
+	width: 150px;
+	font-size: 14px;
+	padding: 13px 0 13px 0;
+}
+
+.small-button {
+	font-size: 12px;
+	padding: 5px 5px 5px 5px;
+}
+
+/*Login*/
+
+
+.login{
+	width: 500px;
+	text-align: center;
+	margin: auto;
+}
